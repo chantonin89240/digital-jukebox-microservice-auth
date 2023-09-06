@@ -5,13 +5,17 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{582C17FC-D562-4508-A58C-D2380B4D79B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{40754F03-9794-4C49-8185-707A8D1A345D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{40754F03-9794-4C49-8185-707A8D1A345D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{A147D049-5E99-4951-A2E6-A65A80930CA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{A147D049-5E99-4951-A2E6-A65A80930CA5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1F4D0E40-519B-471E-BAD4-11BA6BDF2408}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Downloads\.gitignore = ..\..\..\..\..\Downloads\.gitignore
+		..\..\..\..\..\Downloads\README.md = ..\..\..\..\..\Downloads\README.md
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Applications", "Applications\Applications.csproj", "{D70E2291-29AA-4343-9BF0-3B0B6AD4EE8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{D70E2291-29AA-4343-9BF0-3B0B6AD4EE8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
