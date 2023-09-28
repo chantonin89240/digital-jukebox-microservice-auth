@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DigitalJukebox.Auth",
+    "\\DigitalJukebox.Auth\\Domain",
+    "\\DigitalJukebox.Auth\\Domain\\Entities",
+    "\\DigitalJukebox.Auth\\Web"
+  ],
+  "SelectedNode": "\\DigitalJukebox.Auth\\Domain\\Entities\\Class1.cs",
+  "PreviewInSolutionExplorer": false
+}
