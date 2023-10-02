@@ -4,7 +4,7 @@ using MediatR;
 
 namespace Application.Bars.Commands.CreateBar
 {
-    public record CreateBarcommand : IRequest<int>
+    public record CreateBarCommand : IRequest<int>
     {
         public string? Name { get; init; }
         public string? Address { get; init; }
@@ -15,7 +15,7 @@ namespace Application.Bars.Commands.CreateBar
         public Guid User { get; init; }
     }
 
-    public class CreateBarCommandHandler : IRequestHandler<CreateBarcommand, int>
+    public class CreateBarCommandHandler : IRequestHandler<CreateBarCommand, int>
     {
         private readonly AuthDbContext _context;
 
@@ -24,7 +24,7 @@ namespace Application.Bars.Commands.CreateBar
             _context = context;
         }
 
-        public async Task<int> Handle(CreateBarcommand request, CancellationToken cancellationToken)
+        public async Task<int> Handle(CreateBarCommand request, CancellationToken cancellationToken)
         {
             var entity = new Bar
             {
